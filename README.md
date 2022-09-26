@@ -1,12 +1,12 @@
 # iam-users-role-tool
 
-###Usage
+### Usage
   - AWS IAM 상에 등록된 IAM-User 에게 붙어있는 Role 정보를 알 수 있는 도구
 
-###Description
+### Description
   - boto3 를 사용하여 IAM API 호출, Credential 세팅 필요
 
-###Output
+### Output
   - UserName: IAM User 의 UserName
   - PolicyName: User 에게 붙어있는 정책 이름
   - IsManagedPolicy (True/False): 붙어있는 Policy 의 AWS Managed Policy 여부 (ex: AmazonS3ReadOnlyAccess)
